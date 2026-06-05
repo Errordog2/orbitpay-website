@@ -22,7 +22,7 @@ export default function HeroSection() {
                         </p>
                     </div>
                     <div className="flex flex-wrap gap-3">
-                        <Button size="lg" render={<Link href="#" />} nativeButton={false}>
+                        <Button size="lg" render={<Link href="https://orbitpay-frontend.vercel.app" />} nativeButton={false}>
                             Launch App
                             <ArrowRight data-icon="inline-end" />
                         </Button>

@@ -47,7 +47,7 @@ export default function Navbar() {
         </div>
 
         <div className="hidden items-center gap-2 md:flex">
-          <Button render={<Link href="#" />} nativeButton={false}>
+          <Button render={<Link href="https://orbitpay-frontend.vercel.app" />} nativeButton={false}>
             <Send data-icon="inline-start" />
             Launch App
           </Button>
@@ -81,7 +81,7 @@ export default function Navbar() {
               ))}
             </div>
             <div className="mt-auto pb-6">
-              <Button render={<Link href="#" />} nativeButton={false} className="w-full">
+              <Button render={<Link href="https://orbitpay-frontend.vercel.app" />} nativeButton={false} className="w-full">
                 <Send data-icon="inline-start" />
                 Launch App
               </Button>
