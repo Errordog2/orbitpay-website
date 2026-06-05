@@ -25,7 +25,7 @@ export default function DocsPage() {
           <div className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {docLinks.map(({ title, description, href, icon: Icon }) => (
               <a key={href} href={href} target="_blank" rel="noopener noreferrer">
-                <Card className="sg-glass h-full border transition-colors hover:bg-card/90">
+                <Card className="h-full border transition-colors hover:bg-card/90">
                   <CardHeader className="gap-5">
                     <div className="flex items-center justify-between gap-4">
                       <div className="flex size-12 items-center justify-center rounded-2xl border bg-background/60 text-primary">

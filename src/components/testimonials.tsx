@@ -17,7 +17,7 @@ export default function Testimonials() {
                 </div>
 
                 <div className="mt-14 grid gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-rows-2">
-                    <Card className="sg-glass grid grid-rows-[auto_1fr] gap-8 border sm:col-span-2 sm:p-6 lg:row-span-2">
+                    <Card className="grid grid-rows-[auto_1fr] gap-8 border sm:col-span-2 sm:p-6 lg:row-span-2">
                         <CardHeader>
                             <Badge variant="secondary" className="w-fit">Featured</Badge>
                         </CardHeader>
@@ -42,7 +42,7 @@ export default function Testimonials() {
                             </blockquote>
                         </CardContent>
                     </Card>
-                    <Card className="sg-glass border md:col-span-2">
+                    <Card className="border md:col-span-2">
                         <CardContent className="h-full pt-6">
                             <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
                                 <p className="text-xl font-medium">
@@ -63,7 +63,7 @@ export default function Testimonials() {
                             </blockquote>
                         </CardContent>
                     </Card>
-                    <Card className="sg-glass border">
+                    <Card className="border">
                         <CardContent className="h-full pt-6">
                             <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
                                 <p>
@@ -84,7 +84,7 @@ export default function Testimonials() {
                             </blockquote>
                         </CardContent>
                     </Card>
-                    <Card className="sg-glass border">
+                    <Card className="border">
                         <CardContent className="h-full pt-6">
                             <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
                                 <p>

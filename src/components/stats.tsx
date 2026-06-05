@@ -19,7 +19,7 @@ export default function StatsSection() {
                     </div>
                     <div className="grid gap-4 md:grid-cols-3">
                         {stats.map((stat) => (
-                            <Card key={stat.label} className="sg-glass border">
+                            <Card key={stat.label} className="border">
                                 <CardContent className="flex h-full flex-col gap-4 p-6">
                                     <p className="text-primary text-5xl font-semibold tracking-tight">{stat.value}</p>
                                     <div>

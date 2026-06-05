@@ -10,7 +10,7 @@ export default function LogoCloud() {
                 </div>
                 <div className="flex flex-wrap gap-3">
                     {partners.map((partner) => (
-                        <div key={partner} className="sg-glass rounded-full border px-4 py-2 text-sm font-medium">
+                        <div key={partner} className="rounded-full border px-4 py-2 text-sm font-medium">
                             {partner}
                         </div>
                     ))}

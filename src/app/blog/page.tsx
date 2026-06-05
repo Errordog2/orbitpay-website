@@ -20,7 +20,7 @@ export default function BlogPage() {
           </div>
           <div className="mt-14 grid gap-4 md:grid-cols-3">
             {topics.map(({ icon: Icon, title, description }) => (
-              <Card key={title} className="sg-glass border">
+              <Card key={title} className="border">
                 <CardHeader className="gap-5">
                   <div className="flex size-12 items-center justify-center rounded-2xl border bg-background/60 text-primary">
                     <Icon />

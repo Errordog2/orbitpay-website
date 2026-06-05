@@ -41,7 +41,7 @@ export default function Pricing() {
 
         <div className="mt-14 grid gap-4 lg:grid-cols-3">
           {plans.map((plan) => (
-            <Card key={plan.name} className="sg-glass relative flex border">
+            <Card key={plan.name} className="relative flex border">
               {plan.featured ? (
                 <Badge className="absolute right-5 top-5">
                   Featured

@@ -16,7 +16,7 @@ export default function CallToAction() {
                     </p>
 
                     <div className="mt-12 flex flex-wrap justify-center gap-4">
-                        <Button size="lg" render={<Link href="#" />} nativeButton={false}>
+                        <Button size="lg"                             render={<Link href="https://orbitpay-frontend.vercel.app" />} nativeButton={false}>
                             Launch App
                             <ArrowRight data-icon="inline-end" />
                         </Button>

@@ -15,7 +15,7 @@ const proposals = [
 
 export default function ProtocolConsole() {
   return (
-    <Card className="sg-glass relative overflow-hidden border shadow-2xl shadow-primary/10">
+    <Card className="relative overflow-hidden border shadow-2xl shadow-primary/10">
       <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-border" />
       <CardHeader className="border-b">
         <div className="flex items-center justify-between gap-4">

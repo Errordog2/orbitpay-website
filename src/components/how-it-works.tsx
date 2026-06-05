@@ -45,7 +45,7 @@ export default function HowItWorks() {
           <Badge variant="secondary" className="w-fit rounded-full">How Payroll Works</Badge>
           <h2 className="text-balance text-4xl font-semibold tracking-tight lg:text-6xl">From wallet connection to streaming salary in minutes.</h2>
           <p className="text-muted-foreground text-lg leading-8">OrbitPay turns payroll into a repeatable on-chain workflow with continuous streaming, batch operations, and full auditability.</p>
-          <Card className="sg-glass border">
+          <Card className="border">
             <CardHeader>
               <CardTitle>Live event stream</CardTitle>
             </CardHeader>
@@ -74,7 +74,7 @@ export default function HowItWorks() {
 
         <div className="grid gap-4 md:grid-cols-2">
           {steps.map(({ step, title, description, icon: Icon }) => (
-            <Card key={step} className="sg-glass border p-2">
+            <Card key={step} className="border p-2">
               <CardHeader className="gap-6">
                 <div className="flex items-center justify-between gap-4">
                   <div className="flex size-12 items-center justify-center rounded-2xl border bg-background/60 text-primary">
