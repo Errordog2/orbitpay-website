@@ -72,8 +72,8 @@ export const Logo = ({ className, uniColor }: { className?: string; uniColor?: b
                     x2="40"
                     y2="40"
                     gradientUnits="userSpaceOnUse">
-                    <stop stopColor="#7c3aed" />
-                    <stop offset="1" stopColor="#06d6a0" />
+                    <stop stopColor="#F5A623" />
+                    <stop offset="1" stopColor="#4A90D9" />
                 </linearGradient>
             </defs>
         </svg>
@@ -142,8 +142,8 @@ export const LogoIcon = ({ className, uniColor }: { className?: string; uniColor
                     x2="32"
                     y2="32"
                     gradientUnits="userSpaceOnUse">
-                    <stop stopColor="#7c3aed" />
-                    <stop offset="1" stopColor="#06d6a0" />
+                    <stop stopColor="#F5A623" />
+                    <stop offset="1" stopColor="#4A90D9" />
                 </linearGradient>
             </defs>
         </svg>
