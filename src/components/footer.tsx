@@ -13,10 +13,10 @@ const links = [
     {
         group: 'Developers',
         items: [
-            { title: 'GitHub', href: 'https://github.com/OrbitPay-Co' },
-            { title: 'Smart Contracts', href: 'https://github.com/OrbitPay-Co/orbitpay-contracts' },
-            { title: 'SDK', href: 'https://github.com/OrbitPay-Co/orbitpay-sdk' },
-            { title: 'API Docs', href: 'https://github.com/OrbitPay-Co/orbitpay-backend' },
+            { title: 'GitHub', href: 'https://github.com/OBP-ORG' },
+            { title: 'Smart Contracts', href: 'https://github.com/OBP-ORG/orbitpay-contracts' },
+            { title: 'SDK', href: 'https://github.com/OBP-ORG/orbitpay-sdk' },
+            { title: 'API Docs', href: 'https://github.com/OBP-ORG/orbitpay-backend' },
         ],
     },
     {
@@ -33,7 +33,7 @@ const links = [
         items: [
             { title: 'Privacy Policy', href: '/privacy' },
             { title: 'Terms of Service', href: '/terms' },
-            { title: 'License (MIT)', href: 'https://github.com/OrbitPay-Co/orbitpay-docs/blob/main/LICENSE' },
+            { title: 'License (MIT)', href: 'https://github.com/OBP-ORG/orbitpay-docs/blob/main/LICENSE' },
         ],
     },
 ]
@@ -76,7 +76,7 @@ export default function FooterSection() {
                     </span>
                     <div className="order-first flex flex-wrap justify-center gap-6 text-sm md:order-last">
                         <Link
-                            href="https://github.com/OrbitPay-Co"
+                            href="https://github.com/OBP-ORG"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="GitHub"
