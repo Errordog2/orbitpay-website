@@ -3,12 +3,12 @@ import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/ca
 import { ArrowUpRight, BookOpen, Code2, Database, FileText, GitBranch, LayoutDashboard } from "lucide-react";
 
 const docLinks = [
-  { title: "Smart Contracts", description: "Soroban contracts for payroll streaming, treasury, governance, and token vesting.", href: "https://github.com/OrbitPay-Co/orbitpay-contracts", icon: Code2 },
-  { title: "Backend API", description: "Event indexing, PostgreSQL storage, REST APIs, and analytics surfaces.", href: "https://github.com/OrbitPay-Co/orbitpay-backend", icon: Database },
-  { title: "Frontend Dashboard", description: "Next.js wallet interface for payroll, treasuries, proposals, and vesting schedules.", href: "https://github.com/OrbitPay-Co/orbitpay-frontend", icon: LayoutDashboard },
-  { title: "TypeScript SDK", description: "Client library for integrating OrbitPay payroll and treasury operations in Node.js/TS apps.", href: "https://github.com/OrbitPay-Co/orbitpay-sdk", icon: FileText },
-  { title: "Full Documentation", description: "Guides, issue trackers, contribution workflows, and implementation notes.", href: "https://github.com/OrbitPay-Co/orbitpay-docs", icon: BookOpen },
-  { title: "Organization GitHub", description: "Browse all OrbitPay repositories and contribution entry points.", href: "https://github.com/OrbitPay-Co", icon: GitBranch },
+  { title: "Smart Contracts", description: "Soroban contracts for payroll streaming, treasury, governance, and token vesting.", href: "https://github.com/OBP-ORG/orbitpay-contracts", icon: Code2 },
+  { title: "Backend API", description: "Event indexing, PostgreSQL storage, REST APIs, and analytics surfaces.", href: "https://github.com/OBP-ORG/orbitpay-backend", icon: Database },
+  { title: "Frontend Dashboard", description: "Next.js wallet interface for payroll, treasuries, proposals, and vesting schedules.", href: "https://github.com/OBP-ORG/orbitpay-frontend", icon: LayoutDashboard },
+  { title: "TypeScript SDK", description: "Client library for integrating OrbitPay payroll and treasury operations in Node.js/TS apps.", href: "https://github.com/OBP-ORG/orbitpay-sdk", icon: FileText },
+  { title: "Full Documentation", description: "Guides, issue trackers, contribution workflows, and implementation notes.", href: "https://github.com/OBP-ORG/orbitpay-docs", icon: BookOpen },
+  { title: "Organization GitHub", description: "Browse all OrbitPay repositories and contribution entry points.", href: "https://github.com/OBP-ORG", icon: GitBranch },
 ];
 
 export default function DocsPage() {
