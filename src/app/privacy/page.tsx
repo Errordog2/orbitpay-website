@@ -58,7 +58,7 @@ export default function PrivacyPage() {
                 If you have questions or concerns about this Privacy Policy,
                 please open an issue in our{" "}
                 <a
-                  href="https://github.com/OrbitPay-Co/orbitpay-docs"
+                  href="https://github.com/OBP-ORG/orbitpay-docs"
                   className="underline"
                 >
                   GitHub repository
