@@ -25,7 +25,7 @@ export default function CallToAction() {
                             size="lg"
                             variant="outline"
                             render={
-                                <Link href="https://github.com/OrbitPay-Co/orbitpay-docs" />
+                                <Link href="https://github.com/OBP-ORG/orbitpay-docs" />
                             }
                             nativeButton={false}>
                             <BookOpen data-icon="inline-start" />
