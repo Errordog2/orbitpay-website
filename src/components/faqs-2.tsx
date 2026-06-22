@@ -64,13 +64,13 @@ export default function FAQsTwo() {
                     <p className="text-muted-foreground mt-6 px-8">
                         Can&apos;t find what you&apos;re looking for? Check the{' '}
                         <Link
-                            href="https://github.com/OrbitPay-Co/orbitpay-docs"
+                            href="https://github.com/OBP-ORG/orbitpay-docs"
                             className="text-primary font-medium hover:underline">
                             documentation
                         </Link>
                         {' '}or open an issue on{' '}
                         <Link
-                            href="https://github.com/OrbitPay-Co"
+                            href="https://github.com/OBP-ORG"
                             className="text-primary font-medium hover:underline">
                             GitHub
                         </Link>
