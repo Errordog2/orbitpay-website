@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import FooterSection from "@/components/footer";
+import { siteConfig } from "@/lib/site-config";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,9 +16,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "OrbitPay — Decentralized Payroll on Stellar",
+  metadataBase: new URL(siteConfig.canonicalUrl),
+  title: {
+    default: "OrbitPay - Decentralized Payroll on Stellar",
+    template: "%s | OrbitPay",
+  },
   description:
-    "Stream salaries, manage multi-sig treasuries, and automate recurring payments on-chain with OrbitPay — built on Stellar Soroban.",
+    "Stream salaries, manage multi-sig treasuries, and automate recurring payments on Stellar Soroban.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "OrbitPay - Decentralized Payroll on Stellar",
+    description:
+      "Stream salaries, manage multi-sig treasuries, and automate recurring payments on Stellar Soroban.",
+    url: siteConfig.canonicalUrl,
+    siteName: siteConfig.name,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "OrbitPay - Decentralized Payroll on Stellar",
+    description:
+      "Stream salaries, manage multi-sig treasuries, and automate recurring payments on Stellar Soroban.",
+  },
 };
 
 export default function RootLayout({
