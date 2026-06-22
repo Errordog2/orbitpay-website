@@ -31,7 +31,7 @@ export default function HeroSection() {
                     <Button
                         size="lg"
                         variant="outline"
-                        render={<Link href="https://github.com/OrbitPay-Co" />}
+                        render={<Link href="https://github.com/OBP-ORG" />}
                         nativeButton={false}>
                         <GitBranch data-icon="inline-start" />
                         View GitHub
